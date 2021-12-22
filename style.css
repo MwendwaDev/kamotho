@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background:  url(now.png) center/cover no-repeat;
+color: #f0f0f0;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    position: relative;
+}
+.icon{
+    width:90px;
+    height: 90px;
+    border:3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+   color: yellow;
+}
+.vert-line{
+    height: 10px;
+    width: 2px;
+    background: #000;
+}
+.text{
+    padding: 50px 0;
+    border-top: 1px solid #000;
+}
+.text h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-bottom: 10px;
+    text-shadow: 2px 1px 2px #000;
+    color: yellow;
+
+
+}
+.text p{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-shadow: 2px 1px 2px #000;
+    color: chartreuse;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+nav{
+    border:1px solid #000;
+    border-radius: 5px;
+}
+nav ul li{
+    display: block;
+    padding: 12px 0;
+    width: 145px;
+    border-right: 1px solid #000;
+    transition: background 0.5s ease;
+    text-shadow: 3px 1px 2px #f0f0f0;
+    
+}
+nav ul li:last-child{
+    border: none;
+}
+nav ul li:hover{
+    background: rgba(255, 255, 255, 0.2);
+    
+}
+.page img{
+    height: 80vh;
+   width: 40vw;
+}
+.page .article .span{
+    color: yellow;
+}
+
+.page .box-container .box{
+    padding: 2rem;
+    text-align: center;
+    border: var(--border); 
+    color: #fff;
+}
+.page .box-container .box i{
+    
+    color: green;
+}
+.page .span{
+    display: block;
+    font-size: 26px;
+    text-align: right;
+}
+.page .span i{
+    cursor: pointer;
+
+}
+.page .title{
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fff;
+    width: 120px;
+    margin: 20px 0;
+
+}
+img{
+    width: 100%;
+    display: block;
+}
+.page p{
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+article{
+    padding: 20px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    color:#000;
+    background: #fff;
+    margin: 25px 0;
+}
+
+#about h3{
+    
+    padding: 5px 0;
+}
+
+#about p{
+font-style: italic;
+font-weight: bold;
+}
+
+ 
+
+    /*************/
+    .page{
+    width: 60vw;
+    position: absolute;
+    margin: 38px auto;
+    background: grey;
+    color: #fff;
+    line-height: 1.7;
+    padding: 35px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+
+    }
+    .page .span{
+        display: block;
+        font-size: 26px;
+        text-align: right;
+    }
+
+/*media queries */
+
+@media screen and (max-width: 560px){
+nav ul li{
+    width: 70px;
+    padding: 7px 0;
+
+}
+nav ul a{
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width: 768px){ 
+    .wrapper{
+        width: 90vw;
+    }
+    .page{
+        width:90vw
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
